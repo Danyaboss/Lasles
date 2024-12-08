@@ -347,62 +347,19 @@ section .section-2 .service .sponsers {
   height: 208.32px;
   margin: 6.45px 0 50px 144.14px;
 }
-section .position {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 340px;
-  top: 3297px;
-  bottom: 1px;
-  left: 300px;
-  border-radius: 10px;
-  background-color: #FFFFFF;
-  width: 1140px;
-  height: 233px;
-}
-section .position .sect1 {
-  display: flex;
-  flex-direction: column;
-}
-section .position .sect1 h1 {
-  font-size: 35px;
-  font-family: "Rubik-bold", "Arial", sans-serif;
-  font-weight: 700;
-  color: #0B132A;
-}
-section .position .sect1 h4 {
-  color: #4F5665;
-  font-weight: 300;
-  font-size: 16px;
-}
-section .position .sect2 {
-  display: flex;
-  flex-direction: column;
-}
-section .position .sect2 button {
-  background-color: #F53838;
-  color: #FFFFFF;
-  align-self: flex-start;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 17.5px 77.5px;
-  margin-top: 86.5px;
-  border-radius: 10px;
-  box-shadow: 18px 34px 52px -8px rgba(245, 56, 56, 0.4);
-}
 
 footer {
   display: flex;
   flex-direction: row;
   gap: 60px;
-  padding: 180px 0 100px 300px;
+  padding: 180px 0 100px 360px;
   background: #F8F8F8;
+  width: 100%;
 }
 footer .poster1 {
   display: flex;
   flex-direction: column;
+  margin-right: 200px;
 }
 footer .poster1 .logo {
   display: flex;
@@ -411,6 +368,7 @@ footer .poster1 .logo {
 footer .poster1 .logo img {
   width: 35px;
   height: 36.23px;
+  margin-top: 7px;
 }
 footer .poster1 .logo h1 {
   width: 104px;
@@ -450,7 +408,7 @@ footer .poster2 {
 }
 footer .poster2 h1 {
   font-size: 16px;
-  width: 150px;
+  width: 120px;
   height: 20px;
 }
 footer .poster2 h4 {
@@ -477,16 +435,16 @@ footer .poster3 h4 {
   width: 150px;
   height: 5px;
 }
-footer .poster3 {
+footer .poster4 {
   display: flex;
   flex-direction: column;
 }
-footer .poster3 h1 {
+footer .poster4 h1 {
   font-size: 16px;
   width: 150px;
   height: 20px;
 }
-footer .poster3 h4 {
+footer .poster4 h4 {
   font-weight: 300;
   font-size: 14px;
   color: #4F5665;
