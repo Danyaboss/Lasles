@@ -47,12 +47,13 @@ button {
 }
 
 body {
-    margin: 0;
+    margin-left: 100px;
     padding: 0;
     width: 95%;
     height: 100vh;
     background-color: #FFFFFF;
     @include fonts-400 ;
+    
 }
 
 header {
@@ -276,6 +277,7 @@ main {
 section {
     background-color: #fcfcfc;
     position: relative;
+    margin-left: 270px;
 
     .head {
         display: flex;
@@ -406,19 +408,22 @@ button {
             }
         }
 
-        .card-servis{
-            margin-left: 205px;
-
+        .service{
+            margin-left: 180px;
+            
+        
             img {
                 width: 1060px;
                 height: 537.77px;
                 margin: 155.81px 0 0 189.14px;
+                
             }
 
-            .img-two {
+            .sponsers {
                 width: 1135.64px;
                 height: 208.32px;
                 margin: 6.45px 0 50px 144.14px;
+                
             }
         }
 
@@ -481,14 +486,14 @@ button {
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 180px 150px 100px 150px;
+    gap: 60px;
+    padding: 180px 0 100px 300px;
     background: #F8F8F8;
 
     .poster1 {
         display: flex;
         flex-direction: column;
+
 
         .logo {
             display: flex;
@@ -544,8 +549,8 @@ footer {
 
         h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 150px;
+            height: 20px;
 
         }
 
@@ -553,8 +558,8 @@ footer {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 150px;
+            height: 5px;
 
         }
     }
@@ -562,20 +567,21 @@ footer {
     .poster3 {
         display: flex;
         flex-direction: column;
+        margin-right: 40px;
 
 
 h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 150px;
+            height: 20px;
         }
 
         h4 {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 150px;
+            height: 5px;
         }
     }
 
@@ -584,15 +590,15 @@ h1 {
         flex-direction: column;
         h1 {
             font-size: 16px;
-            width: 71px;
-            height: 30px;
+            width: 150px;
+            height: 20px;
         }
         h4 {
             font-weight: 300;
             font-size: 14px;
             color: #4F5665;
-            width: 74px;
-            height: 30px;
+            width: 150px;
+            height: 5px;
         }
     }
 }
